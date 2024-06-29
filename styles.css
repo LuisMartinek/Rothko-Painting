@@ -1,0 +1,48 @@
+.canvas { /*Step 8*/
+    width: 500px;
+    height: 600px; /*Step 9*/
+    background-color: #4d0f00; /*Step 10*/
+    overflow: hidden; /*Step 21 & 22*/
+    filter: blur(2px); /*Step 34*/
+} 
+.frame {
+    border: 50px solid black; /*Step 12*/
+    width: 500px; /*Step 13*/
+    padding: 50px; /*Step 14*/
+    margin: 20px auto; /*Step 15*/
+}
+
+.one {
+    width: 425px; /*Step 17*/
+    height: 150px; /*Step 18*/
+    background-color: #efb762; /*Step 20*/
+    margin: 20px auto; /*Step 21*/
+    box-shadow: 0 0 3px 3px #efb762; /*Step 37*/
+    border-radius: 9px; /*Step 40*/
+    transform: rotate(-0.6deg); /*Step 43*/
+} 
+
+.two {
+    width: 475px; /*Step 24*/
+    height: 200px; /*Step 25*/
+    background-color: #8f0401; /*Step 26*/
+    margin: 0 auto 20px; /*Step 27 & 33*/
+    filter: blur(2px); /*Step 36*/
+    box-shadow: 0 0 3px 3px #8f0401; /*Step 38*/
+    border-radius: 8px 10px; /*Step 41*/
+    transform: rotate(0.4deg); /*Step 44*/
+}
+
+.three {
+    width: 91%; /*Step 29*/
+    height: 28%; /*Step 30*/
+    background-color: #b20403; /*Step 31*/
+    margin: auto; /*Step 32*/
+    box-shadow: 0 0 5px 5px #b20403; /*Step 39*/
+    border-radius: 30px 25px 60px 12px; /*Step 42*/
+    transform: rotate(-0.2deg); /*Step 45*/
+}
+
+.one, .two {
+    filter: blur(1px); /*Step 35*/
+}
